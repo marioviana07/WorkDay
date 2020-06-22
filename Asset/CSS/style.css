@@ -66,11 +66,28 @@ textarea {
     color: white;
 }
 
-.saveBtn i:hover {
-    font-size: 20px;
-    transition: all .3s ease-in-out;
-}
-
 .lead:hover {
     color: rgb(74, 255, 122);
+}
+
+.input-group-prepend {
+    margin-bottom: 10px;
+}
+
+.input-group-text {
+    background-color: #17a2b8;
+    color: white;
+    padding: 11px;
+}
+
+.form-control {
+    padding: 23px;
+    margin-bottom: 2px;
+    color: blue;
+}
+
+.fas {
+    padding: 15px;
+    color: #000000;
+    background-color: #ff6961;
 }

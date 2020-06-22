@@ -11,7 +11,7 @@ var saveBtn = document.querySelector("#save");
 var today = document.querySelector("#currentDay");
 var momentElement = moment().hours(Number);
 
-// today.innerHTML = (momentElement);
+today.innerHTML = (momentElement);
 
 
 $(".save").on("click", function() {
